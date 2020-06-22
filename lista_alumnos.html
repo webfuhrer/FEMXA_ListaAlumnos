@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+<script>
+function saludarAlumnos()
+{
+var obj_alumno1={nombre: "Pepe",apellido:"perez", edad:32 };
+var obj_alumno2={nombre: "Ana",apellido:"Sanchez", edad:29 };
+var lista_alumnos=[obj_alumno1, obj_alumno2];
+var numero_alumnos=lista_alumnos.length;
+for(i=0; i<numero_alumnos; i++)//i=i+1
+	{
+	alert(lista_alumnos[i].nombre+" "+lista_alumnos[i].apellido);
+	}
+
+}
+
+</script>
+</head>
+<body>
+
+<button onclick="saludarAlumnos();">Verificar edad</button>
+</body>
+</html>
